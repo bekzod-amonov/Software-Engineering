@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T07:26:34.887Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="X1N_QQdIUmP8D5zwlNUD" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-27T08:56:46.587Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="jOi7om7FjcZQYYcfYNPO" version="22.1.4" type="github">
   <diagram name="Page-1" id="JJ1LS8_FkREXoTBzLPf4">
-    <mxGraphModel dx="2377" dy="1527" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2672" dy="1808" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -229,13 +229,13 @@
           <mxGeometry x="931.5" y="548.95" width="208" height="175" as="geometry" />
         </mxCell>
         <mxCell id="Azy4jwkWSSVBR5E3SoNL-36" value="12. The UAV receives confirmation from the human operator that the victim sighting is valid." style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="Azy4jwkWSSVBR5E3SoNL-128">
-          <mxGeometry x="267.5" y="395" width="208" height="175" as="geometry" />
+          <mxGeometry x="175" y="314" width="208" height="175" as="geometry" />
         </mxCell>
         <mxCell id="Azy4jwkWSSVBR5E3SoNL-37" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="Azy4jwkWSSVBR5E3SoNL-128" source="Azy4jwkWSSVBR5E3SoNL-33" target="Azy4jwkWSSVBR5E3SoNL-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Azy4jwkWSSVBR5E3SoNL-38" value="13. DroneResponse automatically sends the GPS coordinates to the mobile_rescue system." style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="Azy4jwkWSSVBR5E3SoNL-128">
-          <mxGeometry x="593" y="1002" width="208" height="175" as="geometry" />
+          <mxGeometry x="175" y="997" width="208" height="175" as="geometry" />
         </mxCell>
         <mxCell id="Azy4jwkWSSVBR5E3SoNL-39" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="Azy4jwkWSSVBR5E3SoNL-128" source="Azy4jwkWSSVBR5E3SoNL-36" target="Azy4jwkWSSVBR5E3SoNL-38">
           <mxGeometry relative="1" as="geometry" />
@@ -257,9 +257,6 @@
         </mxCell>
         <mxCell id="Azy4jwkWSSVBR5E3SoNL-45" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="Azy4jwkWSSVBR5E3SoNL-128" source="Azy4jwkWSSVBR5E3SoNL-42" target="Azy4jwkWSSVBR5E3SoNL-43">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Azy4jwkWSSVBR5E3SoNL-49" value="Supporting Actors - Technicians" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=16;" vertex="1" parent="Azy4jwkWSSVBR5E3SoNL-128">
-          <mxGeometry x="125" y="1080" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Azy4jwkWSSVBR5E3SoNL-8" value="1. UAVs are placed&amp;nbsp; in their launch positions" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="Azy4jwkWSSVBR5E3SoNL-128">
           <mxGeometry x="96" y="115" width="132" height="78" as="geometry" />
@@ -326,6 +323,12 @@
         </mxCell>
         <mxCell id="Azy4jwkWSSVBR5E3SoNL-175" value="[victim_detection] event is raised." style="html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="Azy4jwkWSSVBR5E3SoNL-128">
           <mxGeometry x="1972" y="581" width="166" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-270" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontSize=16;" vertex="1" parent="Azy4jwkWSSVBR5E3SoNL-128">
+          <mxGeometry x="1883" y="1059.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-271" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="Azy4jwkWSSVBR5E3SoNL-128" source="Azy4jwkWSSVBR5E3SoNL-270" target="Azy4jwkWSSVBR5E3SoNL-43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Azy4jwkWSSVBR5E3SoNL-129" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-594" y="825" width="30" height="30" as="geometry" />
@@ -460,6 +463,424 @@
         </mxCell>
         <mxCell id="Azy4jwkWSSVBR5E3SoNL-177" value="DroneResponse" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1997" y="1256" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-198" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-181" target="Azy4jwkWSSVBR5E3SoNL-184">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-181" value="10.1. The UAV positions itself in tracking_position" style="html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="518" y="2215" width="186" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-182" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-35" target="Azy4jwkWSSVBR5E3SoNL-181">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="687" y="1371" as="sourcePoint" />
+            <mxPoint x="736" y="2180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="727" y="1806" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-199" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-184" target="Azy4jwkWSSVBR5E3SoNL-185">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-184" value="10.2. The UAV uses image capture and analysis to continually tag the victim in the image stream." style="html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="514" y="2348" width="190" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-200" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-185" target="Azy4jwkWSSVBR5E3SoNL-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-185" value="10.3. Based on the UAV&#39;s position (pitch, roll, yaw) onboard tracker continually calculates the relative position of the victim with respect to the UAV." style="html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="514" y="2581" width="186" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-201" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-186" target="Azy4jwkWSSVBR5E3SoNL-187">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-186" value="10.4. The onboard tracker generates appropriate velocity vectors to fly towards the victim, without flying directly over the victim and maintaining victim_separation_distance and always flying at an altitude greater than minimum_altitude." style="html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="478" y="2795" width="223" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-202" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-187" target="Azy4jwkWSSVBR5E3SoNL-195">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-187" value="10.5. The velocity vector is sent to the UAV&#39;s autopilot and executed to enable the UAV to track the victim." style="html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="474" y="3041" width="220" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-195" value="Repeat steps 2-5?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="502.5" y="3231" width="163" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-196" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" source="Azy4jwkWSSVBR5E3SoNL-195" parent="1" target="Azy4jwkWSSVBR5E3SoNL-35">
+          <mxGeometry x="-0.9711" relative="1" as="geometry">
+            <mxPoint x="584" y="3533" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="584" y="3418" />
+              <mxPoint x="418" y="3418" />
+              <mxPoint x="418" y="1482" />
+              <mxPoint x="534" y="1482" />
+            </Array>
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-197" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="Azy4jwkWSSVBR5E3SoNL-195" parent="1" target="Azy4jwkWSSVBR5E3SoNL-184">
+          <mxGeometry x="-0.9411" y="-27" relative="1" as="geometry">
+            <mxPoint x="338" y="2690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="3296" />
+              <mxPoint x="320" y="2434" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-204" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-203" target="Azy4jwkWSSVBR5E3SoNL-195">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-203" value="Mission Commander" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="710" y="3263" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-205" target="Azy4jwkWSSVBR5E3SoNL-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-216" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-205" target="Azy4jwkWSSVBR5E3SoNL-215">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-377.9990909090915" y="2397" as="sourcePoint" />
+            <mxPoint x="-146.09" y="2567.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-283" y="2448" />
+              <mxPoint x="-105" y="2448" />
+              <mxPoint x="-105" y="2408" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-205" target="Azy4jwkWSSVBR5E3SoNL-218">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-298" y="2662" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-233" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-205" target="Azy4jwkWSSVBR5E3SoNL-231">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-209" y="2159" />
+              <mxPoint x="-209" y="2335" />
+              <mxPoint x="343" y="2335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-235" value="sends a [victim_found] &lt;br&gt;confirmation message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="Azy4jwkWSSVBR5E3SoNL-233">
+          <mxGeometry x="-0.5768" y="6" relative="1" as="geometry">
+            <mxPoint x="13" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-205" value="DroneResponse" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-313" y="2129" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-217" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-212" target="Azy4jwkWSSVBR5E3SoNL-215">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-212" value="The drone generates a [victim_found] alert which is transmitted to DroneResponse." style="html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-61" y="2189" width="181" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-214" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-33" target="Azy4jwkWSSVBR5E3SoNL-212">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="2214" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-220" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-215" target="Azy4jwkWSSVBR5E3SoNL-218">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-215" value="DroneResponse acknowledges receipt of the alert via a message to the UAV" style="html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-62" y="2373" width="183" height="141" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-222" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-218" target="Azy4jwkWSSVBR5E3SoNL-221">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-218" value="DroneResponse raises the [victim_found] alert on the UI for inspection by a human operator." style="whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-64.5" y="2591" width="184" height="131" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-228" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-221" target="Azy4jwkWSSVBR5E3SoNL-224">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-221" value="The Drone Commander inspects the video stream." style="whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-58" y="2782" width="171" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-224" value="The Drone Commander confirms that a victim has been found." style="whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-48" y="2921" width="155" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-226" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-225" target="Azy4jwkWSSVBR5E3SoNL-221">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-156" y="2819" />
+              <mxPoint x="-156" y="2822" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-227" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-225" target="Azy4jwkWSSVBR5E3SoNL-224">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-283" y="2968" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-225" value="Drone Commander" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-298" y="2789" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-230" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-224" target="Azy4jwkWSSVBR5E3SoNL-205">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="30" y="3057" />
+              <mxPoint x="-434" y="3057" />
+              <mxPoint x="-434" y="2149" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-231" target="Azy4jwkWSSVBR5E3SoNL-212">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-231" value="UAV" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="328" y="2223" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-234" value="Text" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="297.272727272727" y="2364.454545454545" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-237" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-236" target="Azy4jwkWSSVBR5E3SoNL-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-236" value="Drone Commander" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-725" y="1058" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-239" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-238" target="Azy4jwkWSSVBR5E3SoNL-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-238" value="DroneResponse" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-725" y="1740.5" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-241" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-240" target="Azy4jwkWSSVBR5E3SoNL-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="964" y="2176" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-240" value="Drone Commander" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1161" y="2146" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-254" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-242" target="Azy4jwkWSSVBR5E3SoNL-245">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-242" value="The UAV takes-off and flies to the designated delivery coordinates" style="html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="883" y="2265" width="148" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-243" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-40" target="Azy4jwkWSSVBR5E3SoNL-242">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="578" y="1891" />
+              <mxPoint x="914" y="1891" />
+              <mxPoint x="914" y="2228" />
+              <mxPoint x="957" y="2228" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-255" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-245" target="Azy4jwkWSSVBR5E3SoNL-246">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-245" value="The UAV starts streaming video" style="whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="897" y="2456" width="131" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-258" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-246" target="Azy4jwkWSSVBR5E3SoNL-247">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-246" value="The video is displayed in the UI for a human operator" style="whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="897" y="2608" width="140" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-259" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-247" target="Azy4jwkWSSVBR5E3SoNL-248">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-247" value="The UAV uses image capture and analysis to determine a safe drop point appropriate for the task at hand" style="whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="902" y="2744.5" width="140" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-260" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-248" target="Azy4jwkWSSVBR5E3SoNL-249">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-248" value="The UAV positions itself at the targeted drop point" style="whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="897" y="2966" width="149" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-261" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-249" target="Azy4jwkWSSVBR5E3SoNL-256">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-263" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-249" target="Azy4jwkWSSVBR5E3SoNL-250">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-249" value="The UAV requests permission from the human operator to drop the item" style="html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1046" y="3182" width="174" height="141" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-264" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-250" target="Azy4jwkWSSVBR5E3SoNL-251">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-250" value="The human operator gives permission for the drop" style="html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1053" y="3391" width="146" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-265" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-251" target="Azy4jwkWSSVBR5E3SoNL-252">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-251" value="The UAV lowers the item at the drop point" style="html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1057" y="3573" width="134" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-267" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-252" target="Azy4jwkWSSVBR5E3SoNL-253">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-252" value="The human operator confirms that the drop is completed" style="html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1053" y="3726" width="146" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-253" value="The UAV moves to a safe observation point and awaits further instructions" style="html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1053" y="3868" width="145" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-256" value="Human&amp;nbsp; Operator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="2778" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-257" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-246" target="Azy4jwkWSSVBR5E3SoNL-256">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-268" value="Confirms" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-256" target="Azy4jwkWSSVBR5E3SoNL-252">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1431" y="3552" as="sourcePoint" />
+            <mxPoint x="1351" y="3552" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1510" y="2798" />
+              <mxPoint x="1510" y="3769" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-269" value="GIves &lt;br&gt;permission" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=12;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-256" target="Azy4jwkWSSVBR5E3SoNL-250">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1451" y="3346" as="sourcePoint" />
+            <mxPoint x="1371" y="3346" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1474" y="2808" />
+              <mxPoint x="1474" y="3436" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-274" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-273" target="Azy4jwkWSSVBR5E3SoNL-242">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1266" y="2295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-275" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-273" target="Azy4jwkWSSVBR5E3SoNL-245">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1077" y="2438" />
+              <mxPoint x="1077" y="2499" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-276" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-273" target="Azy4jwkWSSVBR5E3SoNL-247">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1222" y="2438" />
+              <mxPoint x="1222" y="2822" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-277" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-273" target="Azy4jwkWSSVBR5E3SoNL-248">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1222" y="2438" />
+              <mxPoint x="1222" y="3023" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-278" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-273" target="Azy4jwkWSSVBR5E3SoNL-249">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1266" y="3217" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-279" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-273" target="Azy4jwkWSSVBR5E3SoNL-251">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1579" y="2438" />
+              <mxPoint x="1579" y="3625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-280" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-273" target="Azy4jwkWSSVBR5E3SoNL-253">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1579" y="2438" />
+              <mxPoint x="1579" y="3929" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-273" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1251" y="2408" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-289" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-281" target="Azy4jwkWSSVBR5E3SoNL-283">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-281" value="16.1. The flight is completed and UAVs are recalled home." style="html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="2200" width="137" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-282" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-43" target="Azy4jwkWSSVBR5E3SoNL-281">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1230" y="1988" />
+              <mxPoint x="1660" y="1988" />
+              <mxPoint x="1660" y="2225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-290" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-283" target="Azy4jwkWSSVBR5E3SoNL-284">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-283" value="16.2. The system checks that all recalled UAVs have unique home coordinates." style="html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1808" y="2387" width="148" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-291" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-284" target="Azy4jwkWSSVBR5E3SoNL-286">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-284" value="16.3. UAVs each plan their own routes back to their unique home coordinates." style="html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1813.5" y="2568" width="140.5" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-292" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-286" target="Azy4jwkWSSVBR5E3SoNL-287">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-286" value="16.4.&amp;nbsp; Each UAV lease airspace for the next leg of its planned route and awaits clearance." style="html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1799" y="2797" width="150" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-293" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-287" target="Azy4jwkWSSVBR5E3SoNL-296">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1871.5625" y="3171" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-287" value="16.5. When the UAV receives clearance for the next leg of its return flight it flies to the target waypoint." style="html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1794.5" y="2966" width="159" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-295" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Azy4jwkWSSVBR5E3SoNL-294" target="Azy4jwkWSSVBR5E3SoNL-281">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-294" value="Drone Commander" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2259" y="2471" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-296" value="Repeat steps 4-5?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="3194" width="148" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-297" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;curved=1;" edge="1" source="Azy4jwkWSSVBR5E3SoNL-296" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="2010" y="3214" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-298" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" source="Azy4jwkWSSVBR5E3SoNL-296" parent="1" target="Azy4jwkWSSVBR5E3SoNL-286">
+          <mxGeometry x="-0.9322" y="-15" relative="1" as="geometry">
+            <mxPoint x="1870" y="3294" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1731" y="3245" />
+              <mxPoint x="1731" y="2822" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
