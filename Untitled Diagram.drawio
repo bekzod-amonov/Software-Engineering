@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T08:56:46.587Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="jOi7om7FjcZQYYcfYNPO" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-27T09:03:11.037Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="EX9Qbvy3arAnKWyvDP0q" version="22.1.4" type="github">
   <diagram name="Page-1" id="JJ1LS8_FkREXoTBzLPf4">
-    <mxGraphModel dx="2672" dy="1808" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4732" dy="3780" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -864,23 +864,29 @@
         <mxCell id="Azy4jwkWSSVBR5E3SoNL-294" value="Drone Commander" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="2259" y="2471" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Azy4jwkWSSVBR5E3SoNL-296" value="Repeat steps 4-5?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1830" y="3194" width="148" height="102" as="geometry" />
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-296" value="Did UAV return to its launch coordinates and land safely?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1779" y="3191" width="190" height="197" as="geometry" />
         </mxCell>
-        <mxCell id="Azy4jwkWSSVBR5E3SoNL-297" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;curved=1;" edge="1" source="Azy4jwkWSSVBR5E3SoNL-296" parent="1">
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-297" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;" edge="1" source="Azy4jwkWSSVBR5E3SoNL-296" parent="1" target="Azy4jwkWSSVBR5E3SoNL-286">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="2010" y="3214" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2091" y="3293" />
+              <mxPoint x="2091" y="2848" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Azy4jwkWSSVBR5E3SoNL-298" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" source="Azy4jwkWSSVBR5E3SoNL-296" parent="1" target="Azy4jwkWSSVBR5E3SoNL-286">
-          <mxGeometry x="-0.9322" y="-15" relative="1" as="geometry">
-            <mxPoint x="1870" y="3294" as="targetPoint" />
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-298" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="Azy4jwkWSSVBR5E3SoNL-296" parent="1" target="Azy4jwkWSSVBR5E3SoNL-299">
+          <mxGeometry x="-0.9027" relative="1" as="geometry">
+            <mxPoint x="1925" y="3519" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1731" y="3245" />
-              <mxPoint x="1731" y="2822" />
+              <mxPoint x="1882" y="3388" />
             </Array>
-            <mxPoint as="offset" />
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Azy4jwkWSSVBR5E3SoNL-299" value="End Flight" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1822" y="3490" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
