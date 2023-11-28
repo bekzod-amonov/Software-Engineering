@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-28T08:20:34.414Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="CxQc-67dgeEo_bRnTdrG" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-28T08:27:50.349Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ymtcgzkmQuWw-VqfKg18" version="22.1.4" type="github">
   <diagram name="Page-1" id="hwL8e8LELadIlyGQyHQZ">
     <mxGraphModel dx="941" dy="2006" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -130,10 +130,10 @@
             <mxPoint x="800" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xkGvFycIygTigsBlXQcr-38" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xkGvFycIygTigsBlXQcr-35" target="xkGvFycIygTigsBlXQcr-5">
+        <mxCell id="xkGvFycIygTigsBlXQcr-38" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xkGvFycIygTigsBlXQcr-79" target="xkGvFycIygTigsBlXQcr-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="570" y="250" as="sourcePoint" />
-            <mxPoint x="810" y="300" as="targetPoint" />
+            <mxPoint x="650.0000000000002" y="360" as="sourcePoint" />
+            <mxPoint x="890" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xkGvFycIygTigsBlXQcr-39" value="Arm" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
@@ -338,6 +338,18 @@
         </mxCell>
         <mxCell id="xkGvFycIygTigsBlXQcr-87" value="UAVs are placed" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="625" y="140" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xkGvFycIygTigsBlXQcr-88" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xkGvFycIygTigsBlXQcr-80" target="xkGvFycIygTigsBlXQcr-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="230" as="sourcePoint" />
+            <mxPoint x="820" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xkGvFycIygTigsBlXQcr-90" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xkGvFycIygTigsBlXQcr-86" target="xkGvFycIygTigsBlXQcr-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="565" y="175" as="sourcePoint" />
+            <mxPoint x="810" y="65" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
