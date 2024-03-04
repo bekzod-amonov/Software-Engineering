@@ -1,9 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T12:11:10.595Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.1" etag="sXoyxIAb0i2I0yTbfkXV" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T12:20:10.584Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="6RrnLVnUBXo_-3w99lvd" version="24.0.1" type="github">
   <diagram name="Page-1" id="69g6Tnyvi92k0cFtCzYW">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OWldn-HWdzA0OJEKjCe9-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OWldn-HWdzA0OJEKjCe9-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OWldn-HWdzA0OJEKjCe9-1" value="Raw data" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="299" y="70" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OWldn-HWdzA0OJEKjCe9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OWldn-HWdzA0OJEKjCe9-2" target="OWldn-HWdzA0OJEKjCe9-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OWldn-HWdzA0OJEKjCe9-2" value="Data preparation&lt;div style=&quot;font-size: 14px;&quot;&gt;(Data tranformation; Data cleaning)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="317" y="184" width="194" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OWldn-HWdzA0OJEKjCe9-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OWldn-HWdzA0OJEKjCe9-3" target="OWldn-HWdzA0OJEKjCe9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OWldn-HWdzA0OJEKjCe9-3" value="Monthly data" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="336" y="280" width="156" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OWldn-HWdzA0OJEKjCe9-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OWldn-HWdzA0OJEKjCe9-4" target="OWldn-HWdzA0OJEKjCe9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OWldn-HWdzA0OJEKjCe9-4" value="Model development (Parameter selection for RF)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="306" y="370" width="216" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OWldn-HWdzA0OJEKjCe9-5" value="RF summer model" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="219" y="470" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OWldn-HWdzA0OJEKjCe9-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OWldn-HWdzA0OJEKjCe9-6" target="OWldn-HWdzA0OJEKjCe9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OWldn-HWdzA0OJEKjCe9-6" value="RF fall model" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="374" y="470" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OWldn-HWdzA0OJEKjCe9-7" value="RF spring model" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="529" y="470" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OWldn-HWdzA0OJEKjCe9-8" value="Variable Importance analysis and prediction performance comparison" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="267" y="620" width="294" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OWldn-HWdzA0OJEKjCe9-14" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0.6;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OWldn-HWdzA0OJEKjCe9-4" target="OWldn-HWdzA0OJEKjCe9-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="542" y="450" as="sourcePoint" />
+            <mxPoint x="592" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OWldn-HWdzA0OJEKjCe9-15" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OWldn-HWdzA0OJEKjCe9-4" target="OWldn-HWdzA0OJEKjCe9-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="430" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OWldn-HWdzA0OJEKjCe9-17" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OWldn-HWdzA0OJEKjCe9-5" target="OWldn-HWdzA0OJEKjCe9-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="585" as="sourcePoint" />
+            <mxPoint x="330" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OWldn-HWdzA0OJEKjCe9-18" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OWldn-HWdzA0OJEKjCe9-7" target="OWldn-HWdzA0OJEKjCe9-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="615" as="sourcePoint" />
+            <mxPoint x="450" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
